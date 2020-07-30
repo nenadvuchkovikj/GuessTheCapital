@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Guess The Capital</title>
+</head>
+<body>
+    <div class="container">
+        <div class="intro-container">
+            <div class="scoreboard"></div>
+            <img src="./img/earth.png" alt="Earth">
+            <h1 id="header">Welcome To Capital Guesser</h1>
+            <button class="btn" id="play-btn">Play</button>
+        </div>
+
+        <div class="question-container hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <button class="btn hide" id="next">Next</button>
+            <div class="the-score"></div>
+            <div class="correct-answers"></div>
+        </div>
+    </div>
+
+    <script src="./questions.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
